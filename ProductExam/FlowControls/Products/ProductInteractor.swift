@@ -11,7 +11,7 @@ import Foundation
 class ProductInteractor: ProductDataStore {
     var presenter: ProductPresentable
     
-    private let useCase: GetProductUseCase
+    var useCase: GetProductUseCase
     
     init(presenter: ProductPresentable) {
         self.presenter = presenter

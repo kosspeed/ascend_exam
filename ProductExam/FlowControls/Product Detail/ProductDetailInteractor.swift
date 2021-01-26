@@ -11,7 +11,7 @@ import Foundation
 class ProductDetailInteractor: ProductDetailDataStore {
     var presenter: ProductDetailPresentable
     
-    private var useCase: GetProductDetailUseCase
+    var useCase: GetProductDetailUseCase
     
     var productId: Int
     
